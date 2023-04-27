@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+	
+  	<node pkg="read_pcd" type="read_pcd" name="read_pcd" >
+		<param name="pcd_path" type="string" value="/home/hao/catkin_ws/pcd/" />  
+		<rosparam param="bag_name">/home/hao/catkin_ws/4-26.bag</rosparam>
+  		
+	</node>
+</launch>
